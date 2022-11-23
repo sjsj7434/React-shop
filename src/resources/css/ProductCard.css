@@ -1,0 +1,53 @@
+.productRow{
+	width: 100vw;
+	margin: 0;
+}
+.cardText{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+}
+.badge{
+	font-size: small;
+}
+
+.normal_price{
+	font-size: 20px;
+}
+.no_discount_price{
+	font-size: 15px;
+	text-decoration: line-through;
+}
+.discount_price{
+	font-size: 20px;
+}
+
+@media (max-width: 2560px) {
+	.productCard {
+		color:black;
+		font-size: 4rem;
+		padding: 0px;
+	}  
+}
+@media (max-width: 1920px) {
+	.productCard {
+		color:black;
+		font-size: 20px;
+		padding: 0px;
+	}
+}
+@media (max-width: 1023px) {
+	.productCard {
+		color:black;
+		font-size: 20px;
+		padding: 0px;
+	}
+}
+@media (max-width: 500px) {  
+	.productCard{
+		color:black;
+		font-size: 10px;
+		text-align-last: left;
+	}  
+}

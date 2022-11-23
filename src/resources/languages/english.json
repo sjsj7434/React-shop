@@ -1,0 +1,9 @@
+{
+    "language" : "english",
+    "AdminAddProduct" : {
+        "category" : "Select category for product",
+        "add_category" : "Add category if you need new category",
+        "discount_percentage" : "How much you wanna discount. ex) 10% 27%...",
+        "product_stock" : "How much do you have for sale"
+    }
+}

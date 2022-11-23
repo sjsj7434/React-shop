@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  overflow: hidden;
+}
+
+@media (max-width: 2560px) {
+  .productContainer{
+    padding-top: 0px;
+  }
+}
+@media (max-width: 1023px) {
+  .productContainer{
+    padding-top: 0px;
+  }
+}
