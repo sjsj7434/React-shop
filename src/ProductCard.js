@@ -50,7 +50,7 @@ class ProductCard extends Component{
                         pathname : `/product/productInfo/${this.props.product.product_code}`
                     }}>
                     <Card border="1" className="productCard">
-                        <Card.Img src={`/uploadsImgs/${this.props.product.product_image.split(',')[0]}`}/>
+                        <Card.Img src={`/uploadsImgs/${this.props.product.product_image.split(',')[0]}`} style={{ maxHeight: "180px", minHeight: "180px" }} />
                         <Card.Body>
                             {newBadge}
                             {discountBadge}

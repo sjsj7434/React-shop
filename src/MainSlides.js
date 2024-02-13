@@ -35,7 +35,7 @@ class MainSlides extends Component{
                 return(
                     imageArray.push(
                         <Carousel.Item key={index}>
-                            <img alt={image.image_name} src={`/uploadsImgs/${image.image_url}`} style={{width: window.innerWidth, height: window.screen.height/2}}/>
+                            <img alt={image.image_name} src={`/uploadsImgs/${image.image_url}`} style={{ maxHeight: "18rem", minHeight: "18rem" }}/>
                         </Carousel.Item>
                     )
                 );
@@ -45,7 +45,7 @@ class MainSlides extends Component{
         return(
             <Row>
                 <Col>
-                    <Carousel className="slides" style={{height : window.screen.height/2}}>
+                    <Carousel className="slides" style={{ height : "18rem" }}>
                         {imageArray}
                     </Carousel>
                 </Col>
