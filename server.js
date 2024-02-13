@@ -19,7 +19,7 @@ app.use(session({
 // database 설정
 const data = fs.readFileSync('./database.json');
 const conf = JSON.parse(data);
-const mysql = require('mysql');
+const mysql = require('mysql2');
 const { resolve } = require('path');
 const connection = mysql.createConnection({
 	host: conf.host,
